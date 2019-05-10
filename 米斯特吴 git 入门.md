@@ -12,6 +12,8 @@ git push                  推送到仓库
 
 git pull                    从远程仓库拉去数据
 
+git push -u origin master 第一次push远程地址
+
 git clone  url           从远程仓库拷贝数据
 
 git  config --global user.name 'DY'
@@ -27,6 +29,8 @@ git checkout   *name        切换分支
 git checkout -b   *name  origin/name  创建并切换分支
 
 git remote -v         查看远程仓库地址
+
+git remote add origin url  第一次添加远程地址
 
 git remote set-url origin url 修改远程仓库地址
 
